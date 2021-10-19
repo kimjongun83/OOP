@@ -1,0 +1,9 @@
+CREATE TABLE student (
+	id bigint not null auto_increment primary key,
+    fullname varchar (255),
+    Gender varchar (255),
+    Age int (100),
+    City varchar (255),
+    Weight float (57)
+
+);
