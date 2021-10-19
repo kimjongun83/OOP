@@ -1,5 +1,5 @@
-Câu 1 . select * from student where Gender like 'Nam' order by Age desc
+Câu 1 . select fullname ,gender,age from student where Gender like 'Nam' order by Age desc
 
 Câu 2. select * from student where id>1 and id<4;
 
-Câu 3. select * from student where City like 'Can Tho' or City like 'Soc Trang'
+Câu 3. select fullname , age , City from student where City like 'Can Tho' or City like 'Soc Trang'
